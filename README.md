@@ -76,3 +76,9 @@ class Reaccion
 ## En caso de usar IA-Generativa para consulta de información
 
 - En un archivo llamado informacion.md; explicando a detalle el uso de cada prompt
+
+## Avanze 1 - 21/05/2025
+
+- En el archivo "genera_base.py" creamos el modelo de la base de datos con las 3 clases "usuario","publicacion","reaccion" y en "reaccion" se le colocò la restriccion de que debe ser unico la combiancion de id_usuario y id_publicacion, ademàs a cada tabla le agregamos un campo "id" que serà autoincremental.
+
+- Ademas se realizò la primera consulta en el archvio "consulta_publicaciones_usuario", donde se listan todas las publicaciones hechas por el usurio "William"
