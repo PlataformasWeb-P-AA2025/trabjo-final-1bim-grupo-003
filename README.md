@@ -82,3 +82,5 @@ class Reaccion
 - En el archivo "genera_base.py" creamos el modelo de la base de datos con las 3 clases "usuario","publicacion","reaccion" y en "reaccion" se le colocò la restriccion de que debe ser unico la combiancion de id_usuario y id_publicacion, ademàs a cada tabla le agregamos un campo "id" que serà autoincremental.
 
 - Ademas se realizò la primera consulta en el archvio "consulta_publicaciones_usuario", donde se listan todas las publicaciones hechas por el usurio "William"
+
+- En el archivo "ingreso_datos.py" creamos los engine y sesión y despues creamos el codigo para poder cargar los datos de los csv "usuarios_red_x.csv", "usuarios_publicaciones.csv", "usuario_publicacion_emocion.csv".
